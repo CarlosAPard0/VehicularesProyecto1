@@ -1,0 +1,17 @@
+<edges>
+    <!-- Calle horizontal (n1 -> center -> n2) -->
+    <edge id="n1_to_center" from="n1" to="center" numLanes="2" speed="13.89" />
+    <edge id="center_to_n2" from="center" to="n2" numLanes="2" speed="13.89" />
+
+    <!-- Sentido opuesto (n2 -> center -> n1) -->
+    <edge id="n2_to_center" from="n2" to="center" numLanes="2" speed="13.89" />
+    <edge id="center_to_n1" from="center" to="n1" numLanes="2" speed="13.89" />
+
+    <!-- Calle vertical (n3 -> center -> n4) -->
+    <edge id="n3_to_center" from="n3" to="center" numLanes="2" speed="13.89" />
+    <edge id="center_to_n4" from="center" to="n4" numLanes="2" speed="13.89" />
+
+    <!-- Sentido opuesto (n4 -> center -> n3) -->
+    <edge id="n4_to_center" from="n4" to="center" numLanes="2" speed="13.89" />
+    <edge id="center_to_n3" from="center" to="n3" numLanes="2" speed="13.89" />
+</edges>

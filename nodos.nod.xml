@@ -1,0 +1,10 @@
+<nodes>
+    <!-- Nodos esquineros -->
+    <node id="n1" x="-100.0" y="0.0" type="priority" />
+    <node id="n2" x="100.0" y="0.0" type="priority" />
+    <node id="n3" x="0.0" y="-100.0" type="priority" />
+    <node id="n4" x="0.0" y="100.0" type="priority" />
+
+    <!-- Nodo central (intersección) -->
+    <node id="center" x="0.0" y="0.0" type="priority" />
+</nodes>
